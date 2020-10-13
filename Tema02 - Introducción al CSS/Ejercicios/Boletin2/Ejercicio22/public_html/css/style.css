@@ -1,0 +1,27 @@
+h1#elemento1 {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  color: red;
+}
+
+h1#elemento2 {
+  position: relative;
+  top: 30px;
+  left: -20px;
+  color: green;
+}
+
+h1#elemento3 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  color: blue;
+}
+
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}

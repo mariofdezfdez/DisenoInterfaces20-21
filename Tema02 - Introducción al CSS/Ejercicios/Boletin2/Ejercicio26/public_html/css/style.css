@@ -1,0 +1,23 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid black;
+  margin: 50px;
+}
+
+div#elemento1{
+    transform: translate(100px,200px);
+}
+
+div#elemento2{
+    transform: rotate(45deg);
+}
+
+div#elemento3{
+    transform: scale(0.5,2);
+}
+
+div#elemento4{
+    transform: skew(20deg, 30deg);
+}

@@ -1,0 +1,33 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 50px;
+}
+
+div#elemento1{
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+}
+
+div#elemento1:hover {
+    width: 300px;
+}
+
+div#elemento2{
+    transition: background 2s, transform 2s;
+}
+
+div#elemento2:hover {
+    background: blue;
+    transform: rotate(180deg);
+}
+
+div#elemento3:hover {
+    transition: width 2s ease-in-out 0.5s;
+}
+
+div#elemento3:hover {
+    width: 400px;
+}

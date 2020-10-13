@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 23</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<h2>Formulario responsive</h2>
+<p>Para comprobar el efecto se debe redimensionar el navegador, maximizando y minimizando</p>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Nombre</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Apellido</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">País</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="espanha">España</option>
+        <option value="francia">Francia</option>
+        <option value="italia">Italia</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Motivo</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Escribe algo..." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="submit" value="Enviar formulario">
+  </div>
+  </form>
+</div>
+
+</body>
+</html>

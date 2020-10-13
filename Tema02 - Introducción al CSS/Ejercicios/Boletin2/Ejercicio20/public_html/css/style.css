@@ -1,0 +1,16 @@
+table, th, td {
+   border: 2px solid green;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  text-align: right;
+}
+
+th {
+  padding: 15px;
+  background-color: lightblue;
+}

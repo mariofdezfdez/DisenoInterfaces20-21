@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo formulario</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+</head>
+<body>
+    <h1>Ejemplo formulario</h1>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Introduce tu nombre">
+        <hr>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required placeholder="Introduce tus apellidos">
+        <hr>
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni" required placeholder="Introduce tu DNI" maxlength="9">
+        <hr>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="Introduce tu email">
+        <hr>
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" required placeholder="Introduce tu teléfono" maxlength="9">
+        <hr>
+        <input type="submit" id="btnEnviar" name="btnEnviar" value="Enviar formulario">
+    </form>
+</body>
+</html>

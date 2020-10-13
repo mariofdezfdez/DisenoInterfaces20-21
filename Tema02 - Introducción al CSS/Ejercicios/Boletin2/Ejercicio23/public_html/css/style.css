@@ -1,0 +1,7 @@
+h1#elemento1 {
+    text-shadow: 2px 2px 5px green, 0 0 10px red;
+}
+
+#contenedor{
+    box-shadow: 10px 10px;
+}

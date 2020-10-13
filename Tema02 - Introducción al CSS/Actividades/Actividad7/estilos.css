@@ -1,0 +1,52 @@
+body {
+    background: #7f8c8d;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    margin: 5px 5px;
+    padding: 4px 5px;
+    text-align: center;
+    border: none;
+}
+
+#encabezado {
+    color: brown;
+}
+
+.naranja{
+    color: orange;
+}
+
+table{
+    background-color: red;
+    font-size: 20px;
+}
+
+ol{
+    background-color: yellow;
+    font-size: 30px;
+}
+
+form{
+    background-color: red;
+    font-size: 15px;
+}
+
+#btnIntroducirInfo{
+    font-size: 15px;
+}
+
+#btnIntroducirInfo:hover{
+    transition: all 1s ease 0s;
+    font-size: 30px;
+    text-shadow: 3px 3px 4px gray, -3px -3px 4px gray;
+    transform: rotate(25deg);
+}
+
+#divEscalado:hover{
+    transform: scale(0.5);
+}
+
+#encabezado:hover{
+    transform: translate(20px,50px);
+}

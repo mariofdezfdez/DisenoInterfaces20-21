@@ -1,0 +1,21 @@
+body{
+    background-color: turquoise;
+    text-align: center;
+}
+
+input:hover{
+    transform: scale(2);
+}
+
+#btnEnviar:hover{
+    transform: rotate(50deg);
+}
+
+
+@media screen {
+    background-color: yellow;
+}
+
+@media mobile {
+    color: blue;
+}
