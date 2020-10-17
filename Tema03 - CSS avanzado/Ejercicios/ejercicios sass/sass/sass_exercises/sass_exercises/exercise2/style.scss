@@ -1,0 +1,98 @@
+body {
+   background: #FFF;
+   font-family: "Open Sans";
+   color: #444444;
+}
+
+* {
+   margin         : 0px;
+   padding        : 0px;
+   text-decoration: none;
+   list-style-type: none;
+   border         : 0px;
+}
+
+$text-color: #333;
+$gutter: 20px;
+$padding: 10px;
+$content-width: 900px;
+$item-width: 600px;
+$h1-size: 40px;
+$h2-size: 25px;
+$line-height: 20px;
+$table-background-color: #F6F6F6;
+$table-text-color: $text-color;
+$table-border-color: #C9CBCD;
+
+%heading {
+   color: $text-color;
+   text-align: center;
+   font-weight: 200;
+   margin: $gutter 0;
+   margin-top: 0;
+   text-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+
+.content {
+   width: $content-width;
+   margin: 0 auto;
+
+   h1 {
+      @extend %heading;
+      font-size: $h1-size;
+   }
+
+   h2 {
+      @extend %heading;
+      font-size: $h2-size;
+   }
+
+   .logo {
+      margin: 0 auto;
+      margin-top: $gutter;
+      display: block;
+   }
+   
+   .info {
+      width: $item-width;
+      margin: $gutter/2 auto;
+      text-align: justify;
+   }
+
+   .registration {
+      width: $item-width;
+      margin: $gutter auto;
+      input[type="text"] {
+         background: transparent;
+         border: 0;
+         line-height: $line-height;
+         text-decoration: none;
+         outline: none;
+      }
+      input[type="submit"] {
+         background: darken($table-background-color, 5);
+         margin-top: $gutter/2;
+         border: 1px solid darken($table-border-color, 5);
+         padding: $padding/2 $padding;
+         line-height: $line-height;
+         text-decoration: none;
+         outline: none;
+         float: right;
+      }
+   }
+}
+
+table {
+   width: $item-width;
+   border-collapse: collapse; 
+   tr {
+      background: $table-background-color;
+      color: $table-text-color;
+      td {
+         text-align: left;
+         word-break: break-all;
+         padding: $padding/2 $padding;
+         border: 1px solid $table-border-color;
+      }
+   }
+}

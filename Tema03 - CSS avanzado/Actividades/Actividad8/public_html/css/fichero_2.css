@@ -1,0 +1,23 @@
+.textoClaro {
+  color: white;
+  background-color: black;
+}
+.textoClaroYGrande {
+  color: white;
+  background-color: black;
+  font-size: 40px;
+}
+@media screen {
+  .textoClaro {
+    background-color: yellow;
+    color: red;
+  }
+}
+@media screen and (min-width: 800px) {
+  .textoClaro {
+    font-style: italic;
+    background-color: green;
+    color: white;
+  }
+}
+/*# sourceMappingURL=fichero_2.css.map */

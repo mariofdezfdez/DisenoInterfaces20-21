@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMA,oDAAoB;EAJhB,SAAS,EAKoB,IAAI;EAJjC,WAAW,EAIwB,OAAO;;AAI9C,8BAA8B;EAE1B,YAAY,EAAE,cAAc",
+"sources": ["../scss/fichero2.scss"],
+"names": [],
+"file": "fichero2.css"
+}

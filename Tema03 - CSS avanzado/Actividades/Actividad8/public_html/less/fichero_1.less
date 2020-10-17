@@ -1,0 +1,22 @@
+@colorDefecto: #f0f3fa;
+@tamanhoDefecto: 20pt;
+@tamanhoEncabezado: 30pt;
+
+body{
+    background-color: @colorDefecto - #fff;
+}
+
+.contenido{
+    font-size: @tamanhoDefecto * 2;
+}
+
+h1 {
+    background-color: @colorDefecto + #000;
+    .encabezado{
+        color: @colorDefecto * 1.5;
+        font-size: @tamanhoEncabezado * 2;
+    }
+    &:hover{
+        font-size: @tamanhoEncabezado * 4;
+    }
+}

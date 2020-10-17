@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="author" content="Jack Bittner" />
+   <title>Exercise 2</title>
+ 
+      <!-- fonts -->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+ 
+      <!-- style -->
+   <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+ 
+   <div class="content">
+      <img class="logo" src="img/logo.png" alt="logo"></img>
+      <h1>Invitation to ICT.social community meeting</h1>
+      <p class="info">Hello guys, on Friday the 30th, like on every last Friday of the month, a regular meeting of the local community will be held. It's the 27th meeting already. Anyone can come and join us, we'll order tea and have a chat not only obout IT subjects. You'll surely see new faces and learn things that you wouldn't have even thought of before :)</p>
+      <p class="info">Let's meet at the Main railway station at 5pm, I'll be standing next to the main entrance. We'll head to the Shaman's teahouse later. If you won't make it at the start, you can join us any time at the teahouse.</p>
+      <p class="info">PS: You'll get 10 points for participating the meeting!</p>
+
+      <h2>Registration form</h2>
+
+      <form class="registration">
+         <table>
+            <tr>
+               <td>Your name</td>
+               <td><input type="text" name="name" placeholder="First and last name"></td>
+            </tr>
+               <td>Will you join the meeting?</td>
+               <td>
+                  <input type="radio" name="participation" value="yes" id="yes"> <label for="yes">Yes</label> <br/>
+                  <input type="radio" name="participation" value="no" id="no"> <label for="no">No</label>
+               </td>
+            </tr>
+         </table>
+         <input type="submit" value="Submit" />
+      </form>
+   </div>
+ 
+</body>
+</html>

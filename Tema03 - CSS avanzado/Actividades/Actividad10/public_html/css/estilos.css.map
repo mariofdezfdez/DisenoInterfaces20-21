@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,IAAI;EACA,gBAAgB,EAAE,KAAoB;;AAG1C,UAAU;EACN,SAAS,EAAE,IAAmB;;AAGlC,EAAG;EACC,gBAAgB,EAAE,OAAoB;EACtC,cAAW;IACP,KAAK,EAAE,KAAmB;IAC1B,SAAS,EAAE,IAAsB;EAErC,QAAO;IACH,SAAS,EAAE,KAAsB;;ACbzC,oDAAoB;EAJhB,SAAS,EAKoB,IAAI;EAJjC,WAAW,EAIwB,OAAO;;AAI9C,8BAA8B;EAE1B,YAAY,EAAE,cAAc",
+"sources": ["../scss/fichero1.scss","../scss/fichero2.scss"],
+"names": [],
+"file": "estilos.css"
+}

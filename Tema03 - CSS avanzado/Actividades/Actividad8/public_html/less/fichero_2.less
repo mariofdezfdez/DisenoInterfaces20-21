@@ -1,0 +1,23 @@
+
+
+.textoClaro{
+    color: white;
+    background-color: black;
+}
+
+.textoClaroYGrande{
+    .textoClaro;
+    font-size: 40px;
+}
+
+@media screen {
+    .textoClaro{
+        background-color: yellow;
+        color: red;
+        @media (min-width: 800px) {
+            font-style: italic;
+            background-color: green;
+            color: white;
+        }        
+    }
+}

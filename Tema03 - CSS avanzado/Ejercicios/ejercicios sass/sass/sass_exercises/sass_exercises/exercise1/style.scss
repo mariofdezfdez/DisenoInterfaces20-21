@@ -1,0 +1,65 @@
+body {
+   background: #F1F1F1;
+   font-family: "Open Sans";
+}
+
+* {
+   margin         : 0px;
+   padding        : 0px;
+   text-decoration: none;
+   list-style-type: none;
+   border         : 0px;
+}
+
+// grid
+
+$grid-count: 6;
+
+@for $i from 1 through $grid-count {
+   .grid-#{$i} {
+      width: (100% / $grid-count) * $i;
+      float: left;
+   }
+}
+
+.grid-1 {
+   color: #aaa;
+   &:hover {
+      color: $text-color;
+      cursor: pointer;
+   }
+}
+
+// .profile
+$background-color: #fff;
+$text-color: #333;
+$text-color-hidden: #aaa;
+$border-color: #ccc;
+$profile-width: 600px;
+$gutter: 25px;
+$border-width: 1px;
+
+.profile {
+   background: $background-color;
+   color: $text-color;
+   width: $profile-width;
+   margin: 0 auto;
+   margin-top: $profile-width/4;
+   border: $border-width*2 solid $border-color;
+   ul{
+      overflow: auto;
+      li {
+         text-align: center;
+         line-height: 50px;
+      }
+   }
+}
+
+.content {   
+   padding: $gutter 0;
+   margin: 0 $gutter;
+   border-top: $border-width solid $border-color;
+   p {
+      text-align: justify;
+   }
+}

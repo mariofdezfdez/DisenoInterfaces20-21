@@ -1,0 +1,37 @@
+/* colors */
+body {
+  background: #bbd1ff;
+  color: white; }
+
+nav.navbar {
+  background: pink; }
+
+.slider {
+  background: paleGreen;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+
+.anchura100x100 {
+  width: 100%; }
+
+.box {
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 300px;
+  padding: 20px; }
+
+.margin_top {
+  margin-top: 40px; }
+
+.footer {
+  background: pink;
+  min-height: 80px;
+  padding: 20px;
+  color: black; }
+
+i.fa {
+  font-size: 6em;
+  color: black; }
+
+/*# sourceMappingURL=style.css.map */

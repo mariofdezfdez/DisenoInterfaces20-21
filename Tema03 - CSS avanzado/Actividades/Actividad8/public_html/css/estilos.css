@@ -1,0 +1,39 @@
+body {
+  background-color: #000000;
+}
+.contenido {
+  font-size: 40pt;
+}
+h1 {
+  background-color: #f0f3fa;
+}
+h1 .encabezado {
+  color: #ffffff;
+  font-size: 60pt;
+}
+h1:hover {
+  font-size: 120pt;
+}
+.textoClaro {
+  color: white;
+  background-color: black;
+}
+.textoClaroYGrande {
+  color: white;
+  background-color: black;
+  font-size: 40px;
+}
+@media screen {
+  .textoClaro {
+    background-color: yellow;
+    color: red;
+  }
+}
+@media screen and (min-width: 800px) {
+  .textoClaro {
+    font-style: italic;
+    background-color: green;
+    color: white;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

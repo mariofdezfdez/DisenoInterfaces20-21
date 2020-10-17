@@ -1,0 +1,12 @@
+/* Mixin */
+/* Implementation */
+#divredondeado {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background-color: blue;
+  height: 50px;
+  width: 50%;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

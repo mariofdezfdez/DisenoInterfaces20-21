@@ -1,0 +1,17 @@
+body {
+  background-color: #000000;
+}
+.contenido {
+  font-size: 40pt;
+}
+h1 {
+  background-color: #f0f3fa;
+}
+h1 .encabezado {
+  color: #ffffff;
+  font-size: 60pt;
+}
+h1:hover {
+  font-size: 120pt;
+}
+/*# sourceMappingURL=fichero_1.css.map */

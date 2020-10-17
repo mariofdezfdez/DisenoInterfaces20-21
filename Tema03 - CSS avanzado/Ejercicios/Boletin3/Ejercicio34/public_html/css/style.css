@@ -1,0 +1,13 @@
+/* Mixin */
+/* Implementation */
+#divtransicion {
+  -webkit-transition: all 5s ease-in;
+  -moz-transition: all 5s ease-in;
+  -o-transition: all 5s ease-in;
+  -ms-transition: all 5s ease-in;
+  transition: all 5s ease-in;
+}
+#divtransicion:hover {
+  opacity: 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+body {
+    background-color: black; }
+
+.contenido {
+    font-size: 40pt; }
+
+h1 {
+    background-color: #f0f3fa; }
+h1 .encabezado {
+    color: white;
+    font-size: 60pt; }
+h1:hover {
+    font-size: 120pt; }
+
+.fuentePersonalizada, .fuentePersonalizadaYExpandida {
+    font-size: 10px;
+    font-family: oblique; }
+
+.fuentePersonalizadaYExpandida {
+    font-stretch: extra-expanded; }
+
+/*# sourceMappingURL=estilos.css.map */

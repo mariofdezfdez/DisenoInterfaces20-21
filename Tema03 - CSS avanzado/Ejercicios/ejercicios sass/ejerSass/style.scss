@@ -1,0 +1,54 @@
+/* colores */
+$backColor: #bbd1ff;
+$sliderColor: paleGreen;
+$boxColor: rgba(0, 0, 0, 0.5);
+$footer_color:pink;
+$text_color:white;
+$alternate_text_color:black;
+
+/* distancias*/
+$margin_top:40px;
+$padding_box:20px;
+$footer_padding:20px;
+
+
+html, body{
+	height:100%
+}
+body{
+	background: $backColor;
+	color: $text_color;
+}
+nav.navbar{
+	background: $footer_color;
+}
+.slider{
+	background: $sliderColor;
+	display:flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.altura100x100{
+	height:100%
+}
+.anchura100x100{
+	width:100%
+}
+.box{
+	background: $boxColor;
+	min-height:300px;
+	padding: $padding_box;
+}
+.margin_top{
+	margin-top: $margin_top
+}
+.footer{
+	background: $footer_color;
+	min-height:80px;
+	padding: $footer_padding;
+	color:$alternate_text_color
+}
+i.fa{
+	font-size:6em;
+	color: $alternate_text_color;
+}

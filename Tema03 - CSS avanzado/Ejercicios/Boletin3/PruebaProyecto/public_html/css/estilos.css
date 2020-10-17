@@ -1,0 +1,12 @@
+#tablaEjemplo {
+    background: red;
+}
+
+#formularioEjemplo {
+    color: yellow;
+}
+
+.listaEjemplo {
+    list-style-type: upper-roman;
+}
+

@@ -1,0 +1,15 @@
+
+@mixin fuentePersonalizada($tamanho, $tipo){
+    font-size: $tamanho;
+    font-family: $tipo;
+}
+
+.fuentePersonalizada{
+    @include fuentePersonalizada(10px, oblique);
+}
+
+
+.fuentePersonalizadaYExpandida{
+    @extend .fuentePersonalizada;
+    font-stretch: extra-expanded;
+}

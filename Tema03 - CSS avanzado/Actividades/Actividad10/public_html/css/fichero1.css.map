@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,IAAI;EACA,gBAAgB,EAAE,KAAoB;;AAG1C,UAAU;EACN,SAAS,EAAE,IAAmB;;AAGlC,EAAG;EACC,gBAAgB,EAAE,OAAoB;EACtC,cAAW;IACP,KAAK,EAAE,KAAmB;IAC1B,SAAS,EAAE,IAAsB;EAErC,QAAO;IACH,SAAS,EAAE,KAAsB",
+"sources": ["../scss/fichero1.scss"],
+"names": [],
+"file": "fichero1.css"
+}

@@ -1,0 +1,13 @@
+div {
+  height: 50px;
+  display: inline-block;
+}
+#left {
+  width: 100px;
+  background-color: #004590;
+}
+#right {
+  width: 200px;
+  background-color: #03A9F4;
+}
+/*# sourceMappingURL=style.css.map */
