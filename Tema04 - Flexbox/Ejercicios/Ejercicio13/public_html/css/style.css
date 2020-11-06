@@ -1,0 +1,15 @@
+
+.contenedor{
+    width:500px;
+    height:500px;
+    margin:0px auto;
+    border:1px solid #cccccc;
+}
+.elemento{
+    color:black;
+    background-color: pink;
+    text-align:center;
+    font-weight:bold;
+    border:1px solid black;
+}
+

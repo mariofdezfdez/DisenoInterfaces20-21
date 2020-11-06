@@ -1,0 +1,27 @@
+.box {
+	border: 1px solid cyan;
+	width: 30em;
+	height: 30em;
+	margin: 5% auto 0;
+}
+.dot {
+	width: 10em;
+	height: 10em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dot--1 {
+	background: #FEBE10;
+	color: white;
+}
+.dot--2 {
+	background: #00529F;
+	color: white;
+}
+.dot--3 {
+	background: #EE324E;
+	color: white;
+}
+
+/* Tus estilos a partir de aquí */
