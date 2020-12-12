@@ -1,0 +1,122 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#cabecera{
+}
+
+#identificacion{
+    text-align: center;
+}
+
+#busqueda{
+    text-align: center;
+}
+
+#busqueda input{
+    font-size: 25px;
+}
+
+#busqueda label{
+    font-size: 30px;
+    color: #b00101;
+    font-weight: bold;
+}
+
+#menu{
+    background-color: red;
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+}
+
+#menu ul li{
+    text-align: center;
+}
+#menu ul li a{
+    color: white;
+    padding: 15px;
+    font-size: 50px;
+    font-family: Staatliches;
+    text-decoration: none;
+    -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
+}
+#menu ul li a:hover{
+    color: red;
+    padding: 15px;
+    font-size: 50px;
+    font-family: Staatliches;
+    text-decoration: none;
+}
+
+#lateralizquierdo{
+    background-color: #ffcccc;    
+}
+
+#noticias{
+    width: max-content; 
+    height: 150px;
+    padding-left: 17px;
+}
+#enlaces{
+    width: max-content; 
+    height: 150px;
+    padding-left: 17px;
+}
+#publi{
+    width: max-content; 
+    height: 150px;
+    padding-left: 17px;
+}
+
+#central{
+    background-color: #ffcccc;   
+}
+
+#lateralderecho{
+    background-color: #ffcccc;   
+}
+
+#lateralderecho ol li{
+    position: static;
+    padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    border-radius: .3em;
+}
+
+#pie{
+    text-align: center;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar.navbar-menu {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
